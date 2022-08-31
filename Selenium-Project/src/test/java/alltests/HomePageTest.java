@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.sql.SQLOutput;
 import java.time.Duration;
 
 public class HomePageTest {
@@ -21,7 +22,6 @@ public class HomePageTest {
     @Test
     public void test1(){
         System.out.println("this is a test");
-        System.out.println("Testing git");
         System.out.println("Making another");
     }
 }
